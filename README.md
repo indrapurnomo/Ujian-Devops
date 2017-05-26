@@ -13,4 +13,7 @@ Untuk membuat vagrantfile yang akan kita konfigurasi
 * Kemudian buka file vagrantfile dengan editor yang ada di linux misal sublimetext
 * Lalu konfigurasi mesin anda
 * konfigurasi Provision kita akan mengatur penginstalan dsb,sebelumnya kita buat file install.sh di folder ujianvagrant, setelah itu kita buat script bashnya, disini sya menginstall nginx,curl,vim
-
+* settingan vagrant port 8000
+* ip private 192.168.2.22
+ ## Catatan
+* Gambar belum bisa di load baru ke load 1
