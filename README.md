@@ -15,5 +15,7 @@ Untuk membuat vagrantfile yang akan kita konfigurasi
 * konfigurasi Provision kita akan mengatur penginstalan dsb,sebelumnya kita buat file install.sh di folder ujianvagrant, setelah itu kita buat script bashnya, disini sya menginstall nginx,curl,vim
 * settingan vagrant port 8000
 * ip private 192.168.2.22
- ## Catatan
-* Gambar belum bisa di load baru ke load 1
+  #### Catatan :
+      * Dikarenakkan file gambar tidak bisa di load di folder images,kita harus menggeluarkkan 
+        semua gambar di folder images ke luar folder dan menghapus path `images/[nama gambar]` 
+        di file html
