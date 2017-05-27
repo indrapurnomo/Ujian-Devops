@@ -18,4 +18,4 @@ Untuk membuat vagrantfile yang akan kita konfigurasi
   #### Catatan :
       * Dikarenakkan file gambar tidak bisa di load di folder images,kita harus menggeluarkkan 
         semua gambar di folder images ke luar folder dan menghapus path `images/[nama gambar]` 
-        di file html, terkendala waktu hhehe
+        di file html
