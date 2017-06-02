@@ -6,9 +6,10 @@ echo "Instalasi Nginx,curl,vim"
 sudo apt-get install -y nginx curl vim
 
 echo "Nginx Config"
- sudo rm -rf /var/www/index.nginx-debian.html
+ sudo rm -rf /var/www/html/index.nginx-debian.html
  sudo cp -r /vagrant/blankon-linux-static-web/index.html /var/www/html
  sudo cp -r /vagrant/blankon-linux-static-web/tour_2.png /var/www/html
+<<<<<<< HEAD
  sudo cp -r /vagrant/blankon-linux-static-web/favicon.ico /var/www/html
  sudo cp -r /vagrant/blankon-linux-static-web/logo-hitam.png /var/www/html
  sudo cp -r /vagrant/blankon-linux-static-web/logo-putih.png /var/www/html
@@ -27,4 +28,7 @@ echo "Nginx Config"
  sudo cp -r /vagrant/blankon-linux-static-web/6.png /var/www/html
  sudo cp -r /vagrant/blankon-linux-static-web/7.png /var/www/html
  sudo cp -r /vagrant/blankon-linux-static-web/9.png /var/www/html
+=======
+
+>>>>>>> origin
  sudo service nginx restart
